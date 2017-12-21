@@ -80,6 +80,39 @@ function updatePoses(){
     moveToPlace(hands[13],desiredPosVec[13]);
   }
 
+handsDance(){
+    moveToPlace(hands[0],rzepin);
+    moveToPlace(hands[1],rzepin);
+    moveToPlace(hands[2],rzepin);
+    moveToPlace(hands[3],rzepin);
+    moveToPlace(hands[4],rzepin);
+    moveToPlace(hands[5],rzepin);
+    moveToPlace(hands[6],rzepin);
+    moveToPlace(hands[7],rzepin);
+    moveToPlace(hands[8],rzepin);
+    moveToPlace(hands[9],rzepin);
+    moveToPlace(hands[10],rzepin);
+    moveToPlace(hands[11],rzepin);
+    moveToPlace(hands[12],rzepin);
+    moveToPlace(hands[13],rzepin);
+     //
+    moveToPlace(hands[0],360/14*1);
+    moveToPlace(hands[1],360/14*2);
+    moveToPlace(hands[2],360/14*3);
+    moveToPlace(hands[3],360/14*4);
+    moveToPlace(hands[4],360/14*5);
+    moveToPlace(hands[5],360/14*6);
+    moveToPlace(hands[6],360/14*7);
+    moveToPlace(hands[7],360/14*8);
+    moveToPlace(hands[8],360/14*9);
+    moveToPlace(hands[9],360/14*10);
+    moveToPlace(hands[10],360/14*11);
+    moveToPlace(hands[11],360/14*12);
+    moveToPlace(hands[12],360/14*13);
+    moveToPlace(hands[13],360/14*14);
+     
+     updatePoses();
+}
 function hideSVGOla() {
   var arg = "Olu";
   var style = document.getElementById(arg).style.display;
