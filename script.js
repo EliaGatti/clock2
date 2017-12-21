@@ -96,7 +96,7 @@ function handsDance(){
     moveToPlace(hands[11],rzepin);
     moveToPlace(hands[12],rzepin);
     moveToPlace(hands[13],rzepin);
-     //
+     console.log("everybodies");
     moveToPlace(hands[0],360/14*1);
     moveToPlace(hands[1],360/14*2);
     moveToPlace(hands[2],360/14*3);
@@ -111,6 +111,8 @@ function handsDance(){
     moveToPlace(hands[11],360/14*12);
     moveToPlace(hands[12],360/14*13);
     moveToPlace(hands[13],360/14*14);   
+          console.log("Dancing in--- the--- moooooonlight");
+
      updatePoses();
 }
 function hideSVGOla() {
