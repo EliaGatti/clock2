@@ -123,6 +123,8 @@ function hideSVGOla() {
 }
 
 function hideSVGElia() {
+         moveToPlace(hands[0],mountais);
+     console.log("Dancing in the moonlight");
   var arg = "Elia";
   var style = document.getElementById(arg).style.display;
   if(style === "none")
@@ -132,6 +134,7 @@ function hideSVGElia() {
 }
 
 function hideSVGGosia() {
+     
   var arg = "Gosia";
   var style = document.getElementById(arg).style.display;
   if(style === "none")
