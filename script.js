@@ -80,7 +80,7 @@ function updatePoses(){
     moveToPlace(hands[13],desiredPosVec[13]);
   }
 
-handsDance(){
+function handsDance(){
     moveToPlace(hands[0],rzepin);
     moveToPlace(hands[1],rzepin);
     moveToPlace(hands[2],rzepin);
