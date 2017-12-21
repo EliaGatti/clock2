@@ -81,6 +81,7 @@ function updatePoses(){
   };
 
 function handsDance(){
+     console.log("Dancing in the moonlight");
     moveToPlace(hands[0],rzepin);
     moveToPlace(hands[1],rzepin);
     moveToPlace(hands[2],rzepin);
