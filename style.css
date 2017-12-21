@@ -1,0 +1,152 @@
+/* Layout */
+.main {
+    display: flex;
+    padding: 2em;
+    height: 90vh;
+    justify-content: center;
+    align-items: middle;
+}
+
+.clockbox,
+#clock {
+    width: 100%;
+}
+
+/* Clock styles */
+.circle {
+    fill: none;
+    stroke: #000;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+
+.mid-circle {
+    fill: #000;
+}
+.hour-marks {
+    fill: none;
+    stroke: #000;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+
+.hour-arm {
+    fill: #000;
+    stroke: #000;
+    stroke-width: 17;
+    stroke-miterlimit: 10;
+}
+
+.minute-arm {
+    fill: none;
+    stroke: #000;
+    stroke-width: 11;
+    stroke-miterlimit: 10;
+}
+
+.second-arm {
+    fill: none;
+    stroke: #000;
+    stroke-width: 4;
+    stroke-miterlimit: 10;
+}
+
+/* Transparent box ensuring arms center properly. */
+.sizing-box {
+    fill: none;
+}
+
+/* Make all arms rotate around the same center point. */
+/* Optional: Use transition for animation. */
+#Aga  ,
+#Dam ,
+#Julu,
+#Olu,
+#Gosia,
+#Krzy ,
+#Elia,
+#Tomma ,
+#Ester,
+#Tere ,
+#Au,
+#Anna,
+#Robi,
+#Gra {
+  transform-origin: 720px 460px;
+  transition: transform .5s ease-in-out;}
+}
+
+body
+{
+	padding: 50px;
+}
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+  position:relative; left:2300px; top:800px;
+  background-color: white; /* Green background */
+  border-radius: 10px;
+  color: #000; /* White text */
+  padding: 10px 40px;
+  font-size: 25px;
+  font-family: 'Pacifico', cursive;
+  cursor: pointer; /* Pointer/hand icon */
+  text-decoration: none;
+  display: block; /* Make the buttons appear below each other */
+}
+
+.Ola
+{
+}
+.Elia
+{
+}
+.Gosia
+{
+}
+.Krzystow
+{
+}
+.Aga
+{
+}
+.Julia
+{
+}
+.Damian
+{
+}
+.Gratian
+{
+}
+.Tomma
+{
+}
+.Aurora
+{
+}
+.Tere
+{
+}
+.Anna
+{
+}
+.Robi
+{
+}
+.Ester
+{
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
