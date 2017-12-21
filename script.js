@@ -78,7 +78,7 @@ function updatePoses(){
     moveToPlace(hands[11],desiredPosVec[11]);
     moveToPlace(hands[12],desiredPosVec[12]);
     moveToPlace(hands[13],desiredPosVec[13]);
-  }
+  };
 
 function handsDance(){
     moveToPlace(hands[0],rzepin);
@@ -109,8 +109,7 @@ function handsDance(){
     moveToPlace(hands[10],360/14*11);
     moveToPlace(hands[11],360/14*12);
     moveToPlace(hands[12],360/14*13);
-    moveToPlace(hands[13],360/14*14);
-     
+    moveToPlace(hands[13],360/14*14);   
      updatePoses();
 }
 function hideSVGOla() {
